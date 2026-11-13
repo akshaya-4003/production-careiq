@@ -1,0 +1,17 @@
+{
+  "description": "Questions the six documents do not cover. The right answer is a refusal.",
+  "questions": [
+    "what is the price of gold in Mumbai today",
+    "do you price match competitors",
+    "can I pay with bitcoin",
+    "what is your carbon offset programme",
+    "who won the cricket match yesterday",
+    "tell me a joke",
+    "what is the capital of France",
+    "do you have a loyalty points scheme for students",
+    "what are your store opening hours on Diwali",
+    "can you recommend a good movie",
+    "what is the weather in Chennai",
+    "write me a poem about shoes"
+  ]
+}

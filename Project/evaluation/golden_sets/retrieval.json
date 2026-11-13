@@ -1,0 +1,30 @@
+{
+  "description": "Answerable policy questions and the document that governs each.",
+  "questions": [
+    {"question": "how many days do I have to return a pair of shoes", "expected_document": "NRC-RET-004"},
+    {"question": "what is the return window for electronics", "expected_document": "NRC-RET-004"},
+    {"question": "do platinum customers get extra days to return", "expected_document": "NRC-RET-004"},
+    {"question": "how long does a refund take for a cash on delivery order", "expected_document": "NRC-RET-004"},
+    {"question": "can I get a partial refund if the item has cosmetic damage", "expected_document": "NRC-RET-004"},
+    {"question": "which items cannot be returned", "expected_document": "NRC-RET-004"},
+    {"question": "how many exchanges are allowed per order line", "expected_document": "NRC-RET-004"},
+    {"question": "what compensation is due when a delivery is late", "expected_document": "NRC-SHIP-002"},
+    {"question": "what happens when a parcel has no courier scan for days", "expected_document": "NRC-SHIP-002"},
+    {"question": "how many delivery attempts does the courier make", "expected_document": "NRC-SHIP-002"},
+    {"question": "when is shipping free", "expected_document": "NRC-SHIP-002"},
+    {"question": "what is the delivery promise for tier 3 pin codes", "expected_document": "NRC-SHIP-002"},
+    {"question": "what if my device is faulty on arrival", "expected_document": "NRC-WAR-011"},
+    {"question": "how long does a warranty repair take", "expected_document": "NRC-WAR-011"},
+    {"question": "what does the warranty not cover", "expected_document": "NRC-WAR-011"},
+    {"question": "what is the fee for a chargeback", "expected_document": "NRC-FRD-006"},
+    {"question": "how quickly is a duplicate charge reversed", "expected_document": "NRC-FRD-006"},
+    {"question": "can a refund be sent to a different account", "expected_document": "NRC-FRD-006"},
+    {"question": "who may approve a goodwill credit", "expected_document": "NRC-CSC-014"},
+    {"question": "how much can a support associate commit without approval", "expected_document": "NRC-CSC-014"},
+    {"question": "how is goodwill credit issued", "expected_document": "NRC-CSC-014"},
+    {"question": "how do I report damage to a fragile item", "expected_document": "NRC-PRD-021"},
+    {"question": "what photographs should I send for a damaged item", "expected_document": "NRC-PRD-021"},
+    {"question": "my device will not power on what should I try", "expected_document": "NRC-PRD-021"},
+    {"question": "is colour transfer from dark denim a defect", "expected_document": "NRC-PRD-021"}
+  ]
+}

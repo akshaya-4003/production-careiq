@@ -1,0 +1,25 @@
+{
+  "description": "Phrasing the router was never tuned on. Reported, not gated.",
+  "messages": [
+    {"message": "is there a time limit on sending stuff back", "intent": "policy_question"},
+    {"message": "do I get anything if you are slow to deliver", "intent": "policy_question"},
+    {"message": "what is the process for getting my money back", "intent": "policy_question"},
+    {"message": "under what conditions do you cover repairs", "intent": "policy_question"},
+    {"message": "is it ok to keep the item and get some money off", "intent": "policy_question"},
+    {"message": "any news on NRC-900030", "intent": "order_status"},
+    {"message": "has NRC-900040 left the warehouse", "intent": "order_status"},
+    {"message": "is my parcel close", "intent": "order_status"},
+    {"message": "how far away is my delivery", "intent": "order_status"},
+    {"message": "the glass top came in pieces", "intent": "complaint"},
+    {"message": "screen stays black no matter what I do", "intent": "complaint"},
+    {"message": "you sent me somebody else's jacket", "intent": "complaint"},
+    {"message": "only two of the three bowls came", "intent": "complaint"},
+    {"message": "my bank shows the amount debited two times", "intent": "complaint"},
+    {"message": "cheers mate", "intent": "small_talk"},
+    {"message": "appreciate it", "intent": "small_talk"},
+    {"message": "nice one", "intent": "small_talk"},
+    {"message": "can you book me a train ticket", "intent": "out_of_scope"},
+    {"message": "what is the score in the football", "intent": "out_of_scope"},
+    {"message": "explain quantum physics", "intent": "out_of_scope"}
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "description": "Wording the rule vocabulary was built against.",
+  "messages": [
+    {"message": "how many days do I have to return a pair of shoes", "intent": "policy_question"},
+    {"message": "what is the refund policy for emi orders", "intent": "policy_question"},
+    {"message": "how long is the warranty on electronics", "intent": "policy_question"},
+    {"message": "am I eligible for compensation", "intent": "policy_question"},
+    {"message": "how do I return an item", "intent": "policy_question"},
+    {"message": "can i exchange for a different size", "intent": "policy_question"},
+    {"message": "who approves a goodwill credit", "intent": "policy_question"},
+    {"message": "where is my order NRC-900001", "intent": "order_status"},
+    {"message": "track my order NRC-900010", "intent": "order_status"},
+    {"message": "when will my order arrive", "intent": "order_status"},
+    {"message": "what is the status of my order NRC-900020", "intent": "order_status"},
+    {"message": "has my order shipped", "intent": "order_status"},
+    {"message": "it arrived cracked and the box was crushed", "intent": "complaint"},
+    {"message": "the item is broken and not working", "intent": "complaint"},
+    {"message": "I received the wrong item", "intent": "complaint"},
+    {"message": "I was charged twice for this order", "intent": "complaint"},
+    {"message": "the shoes are too small and do not fit", "intent": "complaint"},
+    {"message": "my parcel never arrived and the courier lost it", "intent": "complaint"},
+    {"message": "my refund has still not been credited", "intent": "complaint"},
+    {"message": "thanks very much", "intent": "small_talk"},
+    {"message": "hello", "intent": "small_talk"},
+    {"message": "good morning", "intent": "small_talk"},
+    {"message": "thank you, bye", "intent": "small_talk"},
+    {"message": "what is the price of gold in Mumbai today", "intent": "out_of_scope"},
+    {"message": "tell me a joke", "intent": "out_of_scope"},
+    {"message": "what is the weather today", "intent": "out_of_scope"},
+    {"message": "who won the cricket match", "intent": "out_of_scope"}
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "description": "Advisory runs replayed in a sandbox database. Each is checked for policy breaches, a policy basis and the call budget.",
+  "runs": [
+    {"order_index": 0, "message": "the parcel arrived cracked and the screen is shattered", "decision": "APPROVE"},
+    {"order_index": 1, "message": "the courier has lost my parcel entirely, no scan for days", "decision": "MODIFY", "remedy_type": "Replacement"},
+    {"order_index": 2, "message": "i was charged twice for this order", "decision": "APPROVE"},
+    {"order_index": 3, "message": "my delivery is six days late and still has not arrived", "decision": "REJECT"},
+    {"order_index": 4, "message": "the shoes do not fit, they are narrow and i need the next size up", "decision": "APPROVE"},
+    {"order_index": 5, "message": "the device is dead on arrival and will not power up", "decision": "APPROVE"},
+    {"order_index": 6, "message": "i ordered 3 items but only received part of them", "decision": "APPROVE"},
+    {"order_index": 7, "message": "the return was picked up weeks ago but my refund has not been credited", "decision": "APPROVE"}
+  ]
+}

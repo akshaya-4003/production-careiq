@@ -1,0 +1,11 @@
+{
+  "description": "Conversations where a later turn depends on something an earlier turn settled.",
+  "conversations": [
+    {"turns": ["where is my order NRC-900005", "when will it arrive"], "expect_order": "NRC-900005"},
+    {"turns": ["track my order NRC-900012", "where is it now"], "expect_order": "NRC-900012"},
+    {"turns": ["what is the status of my order NRC-900033", "has my order shipped"], "expect_order": "NRC-900033"},
+    {"turns": ["where is my parcel NRC-900047", "when will my parcel arrive"], "expect_order": "NRC-900047"},
+    {"turns": ["NRC-900051", "where is my order"], "expect_order": "NRC-900051"},
+    {"turns": ["where is my order NRC-900060", "where is my order NRC-900061"], "expect_order": "NRC-900061"}
+  ]
+}
