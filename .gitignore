@@ -1,0 +1,61 @@
+__pycache__/
+*.pyc
+# Python bytecode and test/tool caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+coverage.xml
+htmlcov/
+ 
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+ 
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+*.local
+*.secret
+*.pem
+*.key
+ 
+# Local databases and runtime state
+*.db
+*.sqlite
+*.sqlite3
+*.db-*
+ 
+# Generated datasets and pipeline artifacts
+Project/data/input/
+Project/processed/
+Project/output/models/
+Project/output/*.json
+Project/output/*.csv
+Project/output/*.png
+ 
+# Local vector/index artifacts
+Project/**/index/
+Project/**/indexes/
+Project/**/*.faiss
+Project/**/*.annoy
+Project/**/*.npy
+Project/**/*.npz
+ 
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+ 
+# Standalone local attachment
+/DOC-20261109-WA0024.pdf
+ 

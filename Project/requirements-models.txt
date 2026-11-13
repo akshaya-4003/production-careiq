@@ -1,0 +1,11 @@
+# Optional neural models. CareIQ runs end to end without these, on the
+# deterministic offline backends. Install them to swap the hashed offline
+# embedder for all-MiniLM-L6-v2:
+#
+#     pip install -r requirements-models.txt
+#     python3 run_knowledge_indexing.py --backend minilm
+#
+# Re-indexing is mandatory after switching embedders: the index records which
+# embedder built it and refuses to be queried by a different one. The test suites
+# pin the offline embedder, so rebuild with --backend offline before running them.
+sentence-transformers==3.2.1
